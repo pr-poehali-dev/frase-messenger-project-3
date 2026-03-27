@@ -4,6 +4,7 @@ export interface Message {
   time: string;
   own: boolean;
   status?: 'sent' | 'delivered' | 'read';
+  edited?: boolean;
 }
 
 export interface Chat {
